@@ -1,1 +1,34 @@
-css
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background: #1a1a1a;
+}
+
+section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project {
+  margin-bottom: 60px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+iframe {
+  max-width: 100%;
+}
